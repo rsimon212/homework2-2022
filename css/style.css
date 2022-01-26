@@ -12,7 +12,7 @@ h1 {
 }
 
 h2 {
-    font-size: 48px;
+    font-size: 32px;
     text-shadow: 2px 4px #808080;
 }
 
@@ -39,31 +39,35 @@ div.intro {
     margin-top: 15px;
 }
 
-div.red {
+.red {
     background-color: #ff0000;
     text-align: right;
     margin-left: 50px;
     border-width:  0px 0px 3px 10px;
 }
 
-div.blue {
+.blue {
     background-color: #0000ff;
     text-align: left;
     margin-right: 50px;
     border-width: 0 10px 3px 0;
 }
 
-div.yellow {
+.yellow {
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
     border-width: 0 0 3px 10px;
     color: #000000;
-    text-shadow: 2px 4px #c7e2c7;
 }
 
-div.green {
-    background-color: #00EB00;
+.yellow h2 { 
+    text-shadow: 2px 4px #c7e2c7; 
+    color: #000000;
+}
+
+.green {
+    background-color: #008500;
     text-align: left;
     margin-right: 50px;
     border-width: 0 10px 3px 0;
